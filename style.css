@@ -1,238 +1,102 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
+} */
+.univImg{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    filter: brightness(30%);
 }
 ul{
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
     list-style: none;
 }
 li{
-    margin-left: 30px;
+    display: inline;
 }
-#right{
-    margin-left: 750px;
+.btnn{
+    background-color: blue;
+    color: white;
 }
-#left{
-    margin-left: 120px;
+.mg1{
+    margin-right: 70px;
 }
-
-.fImg{
+.mg2{
+    margin-right: 30px;
+}
+.mg3{
+    margin-left: 80px;
+}
+.cont{
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    color: white;
+    text-align: center;
     width: 600px;
 }
-.fImg:hover{
-    width: 650px;
+.heading{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
-.tableGrid{
-    display: grid;
-    width: 1325px;
-    grid-template-columns:50% 50%;
-    column-gap: 5px;
-}
-.cont1{
-    margin-top: 195px;
-}
-#rate{
-    margin-top: 15px;
-    font-size: 28px;
-}
-#cont1-1{
-    margin-top: 15px;
-    width: 475px;
-    font-size: 18px;
-}
-#cartBtn{
-    margin-top: 20px;
-    padding: 16px;
-    background-color: blue;
-    color: white;
-    border-radius: 29px;
-}
-#cartBtn2{
-    margin-top: 20px;
-    padding: 16px;
-    background-color: white;
-    color: blue;
-    font-weight: 900;
-    border-radius: 29px;
-    border: none;
-}
-.yvid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 5px;
-    background-color: darkblue;
+.lastCont{
     width: 100%;
-    height: 410px;
+    height: 550px;
+    background-color:#ebebeb;
+    margin-top: 55px;
 }
-.vidWcont{
-    margin-left: 90px;
-    margin-top: 50px;
+.lastCont{
+    position: relative;
 }
-.cont2{
-    margin-left: 45px;
-    margin-top: 100px;
-    color: white;
-    width: 475px;
+.onee{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    text-align: center;
+    font-size: 45px;
 }
-.thirdPart{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #ebebeb;
-    width: 1200px;
-    height: 546px;
-    margin-left: 75px;
+.second{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.twoo{
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    text-align: center;
+    font-size: 45px;
+}
+.num1{
+    font-size: 55px;
+    margin-left: 80px;
     margin-top: 40px;
 }
-.forthPart{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #ebebeb;
-    width: 1200px;
-    height: 546px;
-    margin-left: 75px;
-    margin-top: 40px;
-}
-.cont3{
-    height: 545px;
-    font-size: 23px;
-}
-#itemadj{
-    margin-top: 200px;
-    margin-left: 70px;
-}
-#cont3-1{
-    margin-top: 15px;
-    font-size: 18px;
-    width: 430px;
-}
-.cont4{
-    margin-top: 200px;
-    margin-left: 70px;
-    font-size: 23px;
-}
-#cont4-1{
-    margin-top: 15px;
-    font-size: 18px;
-    width: 460px;
-}
-.fifthPart{
-    width: 100%;
-    height: 270px;
-    background-color: #2453d0;
-    margin-top: 45px;
-    position: relative;
-}
-.contFifth{
-    position: absolute;
-    margin-top: 50px;
-    color: white;
-    width: 600px;
-    margin-left: 360px;
-    text-align: center;
-    height: 250px;
-}
-.headingEight{
-    margin-top: 45px;
-    text-align: center;
-}
-#eightPartHr{
-    width: 100px;
-    height: 1.2px;
-    background-color: blue;
-    margin-left: 630px;
-    margin-top: 8px;
-}
-.contEight{
-    margin-top: 45px;
-    background-color: #ebebeb;
-    width: 1200px;
-    height: 250px;
-    margin-left: 75px;
-    position: relative;
-}
-.contEight1{
-    position: absolute;
-    display: grid;
-    grid-template-columns:20% 80%;
-    grid-template-rows: 120px 120px;
-    row-gap: 9px;
-    column-gap: 6px;
-    margin-top: 45px;
-}
-.roundImg{
-    margin-left: 45px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-}
-.conEight3{
-    width: 900px;
-    font-size: 18px;
-}
-.detailEight{
-    text-align: center;
-}
-.cont-ccc{
-    margin-top: 20px;
-    font-size: 19px;
-}
-.headingNineth{
-    text-align: center;
-    margin-top: 45px;
-}
-#ninethPartHr{
-    width: 100px;
-    height: 1.2px;
-    background-color: blue;
-    margin-left: 630px;
-    margin-top: 8px;
-}
-.contNineth{
-    margin-top: 45px;
-    margin-left: 75px;
-    width: 1200px;
-}
-#mgTop{
-    margin-top: 18px;
-}
-.tenthItem{
-    margin-top: 65px;
-    background-color: #031362;
-    width: 100%;
-    height: 470px;
-    position: relative;
-}
-.headingTenth{
-    position: absolute;
-    margin-top: 80px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    width: 100%;
-}
-#tenthPartHr{
-    width: 100px;
-    height: 1.2px;
-    background-color: white;
-    margin-left: 630px;
+.num2{
+    font-size: 15px;
+    margin-left: 50px;
     margin-top: 10px;
 }
-.conTenth{
-    position: absolute;
-    margin-top: 170px;
-    display: grid;
-    grid-template-columns: 20% 80%;
+#mgli{
+    margin-left:150px;
 }
-.imgTenth{
-    width: 210px;
-    height: 190px;
-    margin-left: 40px;
+#mgli1{
+    margin-left:115px;
 }
-.tenthCon{
-    color: white;
-    width: 910px;
-    font-size: 20px;
-    margin-left: 75px;
+#mgli2{
+    margin-left:100px;
+}
+#mgli3{
+    margin-left:100px;
+}
+#mgli4{
+    margin-left:150px;
+}
+@media screen and (max-width: 900px) {
+    body{
+        background-color: blue;
+    }
 }
