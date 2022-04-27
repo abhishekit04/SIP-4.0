@@ -1,39 +1,20 @@
-.mar{
-    margin-top: 150px;
-    width: 500px;
-    margin-top: -1px;
-
+.imgclass{
+    position: relative;
 }
-.imgcss{
-    margin-left: -70px;
-    width: 400px;
-    height: 500px;
+.imgcont{
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-weight: bold;
+    left: 45%;
 }
-.cont1{
-    width: 400px;
-    height: 500px;
+.img2{
+    filter: brightness(20%);
+    position: relative;
 }
-.cont{
-    text-align: center;
+.imgcon2{
+    position: absolute;
+    top: 200%;
+    left: 10%;
+    color: white;
 }
-.gog{
-    width: 100%;
-    background-color: #ebebeb;
-    padding: 5px;
-}
-.margin3{
-    margin-left: 220px;
-    margin-top: 60px;
-}
-.imgone{
-    background-image: url('photo-1598124146163-36819847286d.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.halfp{
-    width: 450px;
-    margin-left: 80px;
-}
-/* .card{
-    width: 150px;
-} */
